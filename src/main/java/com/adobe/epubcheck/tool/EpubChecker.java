@@ -69,8 +69,7 @@ import com.adobe.epubcheck.util.outWriter;
 import io.mola.galimatias.GalimatiasParseException;
 import io.mola.galimatias.URL;
 
-public class EpubChecker
-{
+public class EpubChecker {
 
   static {
     /* fix #665 (window-less "Checker" gui app on Mac)
@@ -103,8 +102,7 @@ public class EpubChecker
   private static final HashMap<OPSType, String> modeMimeTypeMap;
   private static final String EPUBCHECK_CUSTOM_MESSAGE_FILE = "ePubCheckCustomMessageFile";
 
-  static
-  {
+  static {
     HashMap<OPSType, String> map = new HashMap<OPSType, String>();
 
     map.put(new OPSType("xhtml", EPUBVersion.VERSION_2), "application/xhtml+xml");
